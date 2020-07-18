@@ -1,0 +1,52 @@
+1.What is your understanding of Blockchain
+           A blockchain is a database  that is shared across a network of computers. Once a record has been added to the chain it is very difficult to change. To ensure all the         copies of the database are the same, the network  makes constant checks. Blockchains have been used to underpin cyber-currencies like bitcoin, but many other possible uses are emerging.
+           
+           
+           
+           
+
+
+2.What is the core problem blockchain trying to solve?
+          Blockchain, or distributed ledger technology, set out to solve how we transfer a digital asset between two peers without an intermediary. While there are many       
+      applications of this transfer, let’s look at it in the context of money.
+      The asymmetry of trust in this transaction is known as the Byzantine Generals Problem. Imagine we have four generals planning to attack a city. At least three of the      
+      generals must attack at the same time to overpower the army holding the city. However, the only way they can communicate with each other is via messenger, and they do not         know if one of the generals is a traitor. If a general were traitorous, he could modify the attack message and cause the other generals to fail. The only way to overcome a         traitorous general is to provide the history of all messages sent and evidence they have not been altered. If the generals see that one of their peers has sent a message 
+      different from the others, they would know the general is traitorous and disregard his message. If more generals are good actors than bad in this attack, the correct message       will be obvious.
+      In our bicycle-selling scenario, we cannot see the buyer’s equivalent of “history of all messages sent” – that is, their entire transaction history. Therefore, similar to         the Byzantine General example, we cannot see if the buyer is traitorous in telling us they have the funds to send. PayPal acts as a clearinghouse, but also adds cost and           time to the transactions.
+
+
+
+
+      
+
+3.What are the few features which blockchain will give you?
+      1. Cannot be Corrupted
+      2. Decentralized Technology
+      3. Enhanced Security
+      4. Distributed Ledgers
+      5. Consensus
+      6. Faster Settlement
+
+
+
+
+      
+      
+4.What all things does a Block Contain?
+        Blockchain consists of three important concepts: blocks, nodes and miners.
+       Blocks
+           Every chain consists of multiple blocks and each block has three basic elements:
+           The data in the block.
+           A 32-bit whole number called a nonce. The nonce is randomly generated when a block is created, which then generates a block header hash. 
+           The hash is a 256-bit number wedded to the nonce. It must start with a huge number of zeroes (i.e., be extremely small).
+           When the first block of a chain is created, a nonce generates the cryptographic hash. The data in the block is considered signed and forever tied to the nonce and                hash unless it is mined.  
+      Miners
+           Miners create new blocks on the chain through a process called mining.
+           In a blockchain every block has its own unique nonce and hash, but also references the hash of the previous block in the chain, so mining a block isn't easy,                    especially on large chains.
+           Miners use special software to solve the incredibly complex math problem of finding a nonce that generates an accepted hash. Because the nonce is only 32 bits and the            hash is 256, there are roughly four billion possible nonce-hash combinations that must be mined before the right one is found. When that happens miners are said to              have found the "golden nonce" and their block is added to the chain. 
+           Making a change to any block earlier in the chain requires re-mining not just the block with the change, but all of the blocks that come after. This is why it's                  extremely difficult to manipulate blockchain technology. Think of it is as "safety in math" since finding golden nonces requires an enormous amount of time and                  computing power.
+           When a block is successfully mined, the change is accepted by all of the nodes on the network and the miner is rewarded financially.
+       Nodes
+           One of the most important concepts in blockchain technology is decentralization. No one computer or organization can own the chain. Instead, it is a distributed                  ledger via the nodes connected to the chain. Nodes can be any kind of electronic device that maintains copies of the blockchain and keeps the network functioning. 
+           Every node has its own copy of the blockchain and the network must algorithmically approve any newly mined block for the chain to be updated, trusted and verified.              Since blockchains are transparent, every action in the ledger can be easily checked and viewed. Each participant is given a unique alphanumeric identification number            that shows their transactions.
+           Combining public information with a system of checks-and-balances helps the blockchain maintain integrity and creates trust among users. Essentially, blockchains can            be thought of as the scalability of trust via technology.
